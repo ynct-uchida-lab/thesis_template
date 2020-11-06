@@ -11,7 +11,7 @@ TeXで論文を書くためのサンプル
 
 ## Install
 
-```
+```sh
 $ git clone https://github.com/uchikun2493/tex_sample.git
 ```
 
@@ -23,7 +23,7 @@ cloneしたら適当なフォルダ名に変えてわかりやすくしておき
 	- texの都合で中間ファイルが大量に発生
 		- 無視するか，邪魔なら削除
 
-```
+```sh
 $ # main.texが格納されているscriptsまで移動
 $ cd scripts
 $ # 1回だけコンパイル
@@ -35,7 +35,7 @@ $ latexmk -pvc main.tex
 
 - MacとLinux環境のみshファイルを使ってコンパイルと中間ファイルの削除ができます
 
-```
+```sh
 $ # shellまで移動
 $ cd shell
 $ # 中間ファイルの削除
