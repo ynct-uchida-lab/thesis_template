@@ -13,6 +13,9 @@ if ($^O eq 'darwin') {
     $pdf_update_method = 4;
     # $pdf_update_command = "open -ga Preview %S";
     $pdf_update_command = "open -ga /Applications/Skim.app %S";
+} elsif ($^O eq 'linux') {
+    $pdf_update_method = 4;
+    $pdf_previewer = "xdg-open %S";
 } else {
     $pdf_previewer      = "SumatraPDF -reuse-instance";
     $pdf_update_method  = 4;
