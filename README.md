@@ -12,7 +12,7 @@ TeXで論文を書くためのサンプル
 ## Install
 
 ```sh
-$ git clone https://github.com/uchikun2493/tex_sample.git
+$ git clone https://github.com/ynct-uchida-lab/thesis_template.git
 ```
 
 cloneしたら適当なフォルダ名に変えてわかりやすくしておきましょう
