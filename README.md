@@ -66,7 +66,7 @@ $ change2build_loopd_and_rm_files.sh
     - 生成された中間ファイルの削除
 - build_and_rm_files.sh
     - 一回だけコンパイルしてrm_files.shを実行
-- change2build_loopd_and_rm_files.sh
+- build_loop_and_rm_files.sh
     - 変更を監視して自動コンパイルし，終了時にrm_files.shを実行
 
 ## Other
@@ -75,5 +75,3 @@ $ change2build_loopd_and_rm_files.sh
 - ただし下記事項は対応はしません（随時更新）
     - texのインストール自動化など
     - shell scriptをwin環境でも使えるようにする
-
-
